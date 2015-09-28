@@ -1,0 +1,33 @@
+<div class="container">
+	<div class="ui grid">
+  <div class="four wide column">
+    <div class="ui pointing vertical menu">
+      <div class="item">
+        <b>管理文章</b>
+        <div class="menu">
+          <a class="active item" ui-sref="admin.allPosts">所有文章</a>
+          <a class="item" ui-sref="admin.post">写文章</a>
+        </div>
+      </div>
+      <div class="item">
+        <b>产品管理</b>
+        <div class="menu">
+          <a class="item" ui-sref="admin.allPosts">所有产品</a>
+          <a class="item" ui-sref="admin.post">添加产品</a>
+        </div>
+      </div>
+      <div class="item">
+        <b>资源库</b>
+        <div class="menu">
+          <a class="item" ui-sref="admin.res.goods">产品图</a>
+          <a class="item" ui-sref="admin.res.post">图文配图</a>
+        </div>
+      </div>
+      <a class="item" ui-sref="admin.users">用户管理</a>
+    </div>
+  </div>
+  <div class="twelve wide column" ui-view>
+    welcome
+  </div>
+</div>
+</div>

@@ -1,0 +1,21 @@
+<div class="ui four doubling cards res_post">
+  <div class="card" ng-repeat="post in data.result">
+    <div class="image">
+      <img ng-src="{{post.url | makeThumb:200}}">
+    </div>
+<!--     <div class="content">
+    	<span class="header" style="font-size: 14px;">Size: </span>
+      <p class="meta">{{post.fsize}}</p>
+      <span class="header" style="font-size: 14px;">Type: </span>
+      <p class="meta">{{post.mimeType}}</p>
+    </div> -->
+    <div class="extra">
+			<button class="ui button red" ng-click="event.del(post.key)">
+			  删除
+			</button>
+			<button class="ui button blue" clip-copy="post.url" clip-click="event.copy()">
+			  复制链接
+			</button>
+    </div>
+  </div>
+</div>

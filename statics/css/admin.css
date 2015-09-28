@@ -1,0 +1,295 @@
+.mega-admin a:focus {
+  outline: none; }
+.mega-admin .label {
+  cursor: pointer; }
+.mega-admin .container {
+  margin: 50px auto 0;
+  width: 80%; }
+.mega-admin .post .flash {
+  display: none; }
+.mega-admin .tags a {
+  margin: 1rem .25rem 0; }
+.mega-admin .ta-toolbar {
+  overflow: hidden;
+  margin: 0 0 1em; }
+.mega-admin .ta-bind {
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  margin: 0;
+  outline: 0;
+  -webkit-appearance: none;
+  tap-highlight-color: rgba(255, 255, 255, 0);
+  line-height: 1.2142em;
+  padding: .67861429em 1em;
+  font-size: 1em;
+  background: #fff;
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  color: rgba(0, 0, 0, 0.87);
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 0 transparent inset;
+  -webkit-transition: color .1s ease,border-color .1s ease;
+  transition: color .1s ease,border-color .1s ease; }
+.mega-admin .ta-root .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none; }
+.mega-admin .ta-root .btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px; }
+.mega-admin .ta-root .btn:hover, .mega-admin .ta-root .btn:focus {
+  color: #333;
+  text-decoration: none; }
+.mega-admin .ta-root .btn:active, .mega-admin .ta-root .btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+.mega-admin .ta-root .btn.disabled, .mega-admin .ta-root .btn[disabled], .mega-admin .ta-root fieldset[disabled] .btn {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: .65;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.mega-admin .ta-root .btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc; }
+.mega-admin .ta-root .btn-default:hover, .mega-admin .ta-root .btn-default:focus, .mega-admin .ta-root .btn-default:active, .mega-admin .ta-root .btn-default.active, .mega-admin .ta-root .open .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad; }
+.mega-admin .ta-root .btn-default:active, .mega-admin .ta-root .btn-default.active, .mega-admin .ta-root .open .dropdown-toggle.btn-default {
+  background-image: none; }
+.mega-admin .ta-root .btn-default.disabled, .mega-admin .ta-root .btn-default[disabled], .mega-admin .ta-root fieldset[disabled] .btn-default, .mega-admin .ta-root .btn-default.disabled:hover, .mega-admin .ta-root .btn-default[disabled]:hover, .mega-admin .ta-root fieldset[disabled] .btn-default:hover, .mega-admin .ta-root .btn-default.disabled:focus, .mega-admin .ta-root .btn-default[disabled]:focus, .mega-admin .ta-root fieldset[disabled] .btn-default:focus, .mega-admin .ta-root .btn-default.disabled:active, .mega-admin .ta-root .btn-default[disabled]:active, .mega-admin .ta-root fieldset[disabled] .btn-default:active, .mega-admin .ta-root .btn-default.disabled.active, .mega-admin .ta-root .btn-default[disabled].active, .mega-admin .ta-root fieldset[disabled] .btn-default.active {
+  background-color: #fff;
+  border-color: #ccc; }
+.mega-admin .ta-root .btn-default .badge {
+  color: #fff;
+  background-color: #333; }
+.mega-admin .ta-root .btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd; }
+.mega-admin .ta-root .btn-primary:hover, .mega-admin .ta-root .btn-primary:focus, .mega-admin .ta-root .btn-primary:active, .mega-admin .ta-root .btn-primary.active, .mega-admin .ta-root .open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e; }
+.mega-admin .ta-root .btn-primary:active, .mega-admin .ta-root .btn-primary.active, .mega-admin .ta-root .open .dropdown-toggle.btn-primary {
+  background-image: none; }
+.mega-admin .ta-root .btn-primary.disabled, .mega-admin .ta-root .btn-primary[disabled], .mega-admin .ta-root fieldset[disabled] .btn-primary, .mega-admin .ta-root .btn-primary.disabled:hover, .mega-admin .ta-root .btn-primary[disabled]:hover, .mega-admin .ta-root fieldset[disabled] .btn-primary:hover, .mega-admin .ta-root .btn-primary.disabled:focus, .mega-admin .ta-root .btn-primary[disabled]:focus, .mega-admin .ta-root fieldset[disabled] .btn-primary:focus, .mega-admin .ta-root .btn-primary.disabled:active, .mega-admin .ta-root .btn-primary[disabled]:active, .mega-admin .ta-root fieldset[disabled] .btn-primary:active, .mega-admin .ta-root .btn-primary.disabled.active, .mega-admin .ta-root .btn-primary[disabled].active, .mega-admin .ta-root fieldset[disabled] .btn-primary.active {
+  background-color: #428bca;
+  border-color: #357ebd; }
+.mega-admin .ta-root .btn-primary .badge {
+  color: #428bca;
+  background-color: #fff; }
+.mega-admin .ta-root .btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c; }
+.mega-admin .ta-root .btn-success:hover, .mega-admin .ta-root .btn-success:focus, .mega-admin .ta-root .btn-success:active, .mega-admin .ta-root .btn-success.active, .mega-admin .ta-root .open .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #47a447;
+  border-color: #398439; }
+.mega-admin .ta-root .btn-success:active, .mega-admin .ta-root .btn-success.active, .mega-admin .ta-root .open .dropdown-toggle.btn-success {
+  background-image: none; }
+.mega-admin .ta-root .btn-success.disabled, .mega-admin .ta-root .btn-success[disabled], .mega-admin .ta-root fieldset[disabled] .btn-success, .mega-admin .ta-root .btn-success.disabled:hover, .mega-admin .ta-root .btn-success[disabled]:hover, .mega-admin .ta-root fieldset[disabled] .btn-success:hover, .mega-admin .ta-root .btn-success.disabled:focus, .mega-admin .ta-root .btn-success[disabled]:focus, .mega-admin .ta-root fieldset[disabled] .btn-success:focus, .mega-admin .ta-root .btn-success.disabled:active, .mega-admin .ta-root .btn-success[disabled]:active, .mega-admin .ta-root fieldset[disabled] .btn-success:active, .mega-admin .ta-root .btn-success.disabled.active, .mega-admin .ta-root .btn-success[disabled].active, .mega-admin .ta-root fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c; }
+.mega-admin .ta-root .btn-success .badge {
+  color: #5cb85c;
+  background-color: #fff; }
+.mega-admin .ta-root .btn-info {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da; }
+.mega-admin .ta-root .btn-info:hover, .mega-admin .ta-root .btn-info:focus, .mega-admin .ta-root .btn-info:active, .mega-admin .ta-root .btn-info.active, .mega-admin .ta-root .open .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #39b3d7;
+  border-color: #269abc; }
+.mega-admin .ta-root .btn-info:active, .mega-admin .ta-root .btn-info.active, .mega-admin .ta-root .open .dropdown-toggle.btn-info {
+  background-image: none; }
+.mega-admin .ta-root .btn-info.disabled, .mega-admin .ta-root .btn-info[disabled], .mega-admin .ta-root fieldset[disabled] .btn-info, .mega-admin .ta-root .btn-info.disabled:hover, .mega-admin .ta-root .btn-info[disabled]:hover, .mega-admin .ta-root fieldset[disabled] .btn-info:hover, .mega-admin .ta-root .btn-info.disabled:focus, .mega-admin .ta-root .btn-info[disabled]:focus, .mega-admin .ta-root fieldset[disabled] .btn-info:focus, .mega-admin .ta-root .btn-info.disabled:active, .mega-admin .ta-root .btn-info[disabled]:active, .mega-admin .ta-root fieldset[disabled] .btn-info:active, .mega-admin .ta-root .btn-info.disabled.active, .mega-admin .ta-root .btn-info[disabled].active, .mega-admin .ta-root fieldset[disabled] .btn-info.active {
+  background-color: #5bc0de;
+  border-color: #46b8da; }
+.mega-admin .ta-root .btn-info .badge {
+  color: #5bc0de;
+  background-color: #fff; }
+.mega-admin .ta-root .btn-warning {
+  color: #fff;
+  background-color: #f0ad4e;
+  border-color: #eea236; }
+.mega-admin .ta-root .btn-warning:hover, .mega-admin .ta-root .btn-warning:focus, .mega-admin .ta-root .btn-warning:active, .mega-admin .ta-root .btn-warning.active, .mega-admin .ta-root .open .dropdown-toggle.btn-warning {
+  color: #fff;
+  background-color: #ed9c28;
+  border-color: #d58512; }
+.mega-admin .ta-root .btn-warning:active, .mega-admin .ta-root .btn-warning.active, .mega-admin .ta-root .open .dropdown-toggle.btn-warning {
+  background-image: none; }
+.mega-admin .ta-root .btn-warning.disabled, .mega-admin .ta-root .btn-warning[disabled], .mega-admin .ta-root fieldset[disabled] .btn-warning, .mega-admin .ta-root .btn-warning.disabled:hover, .mega-admin .ta-root .btn-warning[disabled]:hover, .mega-admin .ta-root fieldset[disabled] .btn-warning:hover, .mega-admin .ta-root .btn-warning.disabled:focus, .mega-admin .ta-root .btn-warning[disabled]:focus, .mega-admin .ta-root fieldset[disabled] .btn-warning:focus, .mega-admin .ta-root .btn-warning.disabled:active, .mega-admin .ta-root .btn-warning[disabled]:active, .mega-admin .ta-root fieldset[disabled] .btn-warning:active, .mega-admin .ta-root .btn-warning.disabled.active, .mega-admin .ta-root .btn-warning[disabled].active, .mega-admin .ta-root fieldset[disabled] .btn-warning.active {
+  background-color: #f0ad4e;
+  border-color: #eea236; }
+.mega-admin .ta-root .btn-warning .badge {
+  color: #f0ad4e;
+  background-color: #fff; }
+.mega-admin .ta-root .btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a; }
+.mega-admin .ta-root .btn-danger:hover, .mega-admin .ta-root .btn-danger:focus, .mega-admin .ta-root .btn-danger:active, .mega-admin .ta-root .btn-danger.active, .mega-admin .ta-root .open .dropdown-toggle.btn-danger {
+  color: #fff;
+  background-color: #d2322d;
+  border-color: #ac2925; }
+.mega-admin .ta-root .btn-danger:active, .mega-admin .ta-root .btn-danger.active, .mega-admin .ta-root .open .dropdown-toggle.btn-danger {
+  background-image: none; }
+.mega-admin .ta-root .btn-danger.disabled, .mega-admin .ta-root .btn-danger[disabled], .mega-admin .ta-root fieldset[disabled] .btn-danger, .mega-admin .ta-root .btn-danger.disabled:hover, .mega-admin .ta-root .btn-danger[disabled]:hover, .mega-admin .ta-root fieldset[disabled] .btn-danger:hover, .mega-admin .ta-root .btn-danger.disabled:focus, .mega-admin .ta-root .btn-danger[disabled]:focus, .mega-admin .ta-root fieldset[disabled] .btn-danger:focus, .mega-admin .ta-root .btn-danger.disabled:active, .mega-admin .ta-root .btn-danger[disabled]:active, .mega-admin .ta-root fieldset[disabled] .btn-danger:active, .mega-admin .ta-root .btn-danger.disabled.active, .mega-admin .ta-root .btn-danger[disabled].active, .mega-admin .ta-root fieldset[disabled] .btn-danger.active {
+  background-color: #d9534f;
+  border-color: #d43f3a; }
+.mega-admin .ta-root .btn-danger .badge {
+  color: #d9534f;
+  background-color: #fff; }
+.mega-admin .ta-root .btn-link {
+  color: #428bca;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 0; }
+.mega-admin .ta-root .btn-link, .mega-admin .ta-root .btn-link:active, .mega-admin .ta-root .btn-link[disabled], .mega-admin .ta-root fieldset[disabled] .btn-link {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.mega-admin .ta-root .btn-link, .mega-admin .ta-root .btn-link:hover, .mega-admin .ta-root .btn-link:focus, .mega-admin .ta-root .btn-link:active {
+  border-color: transparent; }
+.mega-admin .ta-root .btn-link:hover, .mega-admin .ta-root .btn-link:focus {
+  color: #2a6496;
+  text-decoration: underline;
+  background-color: transparent; }
+.mega-admin .ta-root .btn-link[disabled]:hover, .mega-admin .ta-root fieldset[disabled] .btn-link:hover, .mega-admin .ta-root .btn-link[disabled]:focus, .mega-admin .ta-root fieldset[disabled] .btn-link:focus {
+  color: #999;
+  text-decoration: none; }
+.mega-admin .ta-root .btn-lg {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px; }
+.mega-admin .ta-root .btn-sm {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+.mega-admin .ta-root .btn-xs {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+.mega-admin .ta-root .btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0; }
+.mega-admin .ta-root .btn-block + .btn-block {
+  margin-top: 5px; }
+.mega-admin .ta-root .btn-group, .mega-admin .ta-root .btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 5px; }
+.mega-admin .ta-root .btn-group > .btn, .mega-admin .ta-root .btn-group-vertical > .btn {
+  position: relative;
+  float: left; }
+.mega-admin .ta-root .btn-group > .btn:hover, .mega-admin .ta-root .btn-group-vertical > .btn:hover, .mega-admin .ta-root .btn-group > .btn:focus, .mega-admin .ta-root .btn-group-vertical > .btn:focus, .mega-admin .ta-root .btn-group > .btn:active, .mega-admin .ta-root .btn-group-vertical > .btn:active, .mega-admin .ta-root .btn-group > .btn.active, .mega-admin .ta-root .btn-group-vertical > .btn.active {
+  z-index: 2; }
+.mega-admin .ta-root .btn-group > .btn:focus, .mega-admin .ta-root .btn-group-vertical > .btn:focus {
+  outline: 0; }
+.mega-admin .ta-root .btn-group .btn + .btn, .mega-admin .ta-root .btn-group .btn + .btn-group, .mega-admin .ta-root .btn-group .btn-group + .btn, .mega-admin .ta-root .btn-group .btn-group + .btn-group {
+  margin-left: -1px; }
+.mega-admin .ta-root .btn-toolbar {
+  margin-left: -5px; }
+.mega-admin .ta-root .btn-toolbar .btn-group, .mega-admin .ta-root .btn-toolbar .input-group {
+  float: left; }
+.mega-admin .ta-root .btn-toolbar > .btn, .mega-admin .ta-root .btn-toolbar > .btn-group, .mega-admin .ta-root .btn-toolbar > .input-group {
+  margin-left: 5px; }
+.mega-admin .ta-root .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  border-radius: 0; }
+.mega-admin .ta-root .btn-group > .btn:first-child {
+  margin-left: 0; }
+.mega-admin .ta-root .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
+.mega-admin .ta-root .btn-group > .btn:last-child:not(:first-child), .mega-admin .ta-root .btn-group > .dropdown-toggle:not(:first-child) {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+.mega-admin .ta-root .btn-group > .btn-group {
+  float: left; }
+.mega-admin .ta-root .btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  border-radius: 0; }
+.mega-admin .ta-root .btn-group > .btn-group:first-child > .btn:last-child, .mega-admin .ta-root .btn-group > .btn-group:first-child > .dropdown-toggle {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0; }
+.mega-admin .ta-root .btn-group > .btn-group:last-child > .btn:first-child {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0; }
+.mega-admin .ta-root .btn-group .dropdown-toggle:active, .mega-admin .ta-root .btn-group.open .dropdown-toggle {
+  outline: 0; }
+.mega-admin .ta-root .btn-group-xs > .btn {
+  padding: 1px 5px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+.mega-admin .ta-root .btn-group-sm > .btn {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px; }
+.mega-admin .ta-root .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px; }
+.mega-admin .ta-root .btn-group > .btn + .dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px; }
+.mega-admin .ta-root .btn-group > .btn-lg + .dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px; }
+.mega-admin .ta-root .btn-group.open .dropdown-toggle {
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
+.mega-admin .ta-root .btn-group.open .dropdown-toggle.btn-link {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+.mega-admin .tool-upload {
+  font-size: 3rem;
+  color: #fff;
+  background: #555;
+  padding: .5rem;
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 3px;
+  cursor: pointer; }
+  .mega-admin .tool-upload i {
+    transform: translateY(10px);
+    margin: 0; }
+.mega-admin .res_post .card {
+  text-align: center;
+  white-space: nowrap; }
+  .mega-admin .res_post .card .button {
+    font-size: 12px; }
+
+/*# sourceMappingURL=admin.css.map */

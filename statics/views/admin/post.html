@@ -1,0 +1,28 @@
+<div class="ui form post">
+	<div class="ui info message" ng-class="{'error': err.postError}" ng-style="{display: data.feedback ? 'block' : 'none'}">
+	  <span class="octicon octicon-alert"></span>
+	  <span ng-bind="data.feedback"></span>
+	</div>
+	<div class="field">
+		<input class="input-block" type="text" placeholder="标题" ng-model="model.title">
+	</div>
+	<div class="field">
+		<input class="input-block" type="text" placeholder="文章标签，回车添加标签" ng-keydown="event.getTags($event)" ng-model="data.tag">
+		<span class="tags">
+		<!-- Use 'track by' expression to specify unique keys. -->
+			<a href="" ng-repeat="tag in model.tags track by $index" class="ui teal tag label" ng-bind="tag" ng-click="event.removeTag(tag)"></a>
+		</span>
+	</div>
+	<div class="field">
+		<image-upload url="{{data.mediaUrl}}">
+	</div>
+	<div class="field">
+		<div text-angular ng-model="model.content"></div>
+	</div>
+	<div class="field ui input">
+		<button class="positive ui button" type="button" ng-click="event.save()">保存</button>
+		<button class="negative ui button" type="button" ng-click="event.post()">发布</button>
+		<input type="datetime" date-time ng-model="model.cron" placeholder="定时发布" auto-close="true">
+	</div>
+</div>
+

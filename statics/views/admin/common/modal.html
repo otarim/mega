@@ -1,0 +1,21 @@
+<div>
+	<div class="tool-upload">
+		<i class="file image outline icon" ng-click="event.showModal()"></i>
+	</div>
+	<div class="ui modal upload">
+		<div class="header">
+			上传图片
+		</div>
+		<div class="content">
+			<file handler="event.upload(file)" />
+		</div>
+		<div class="result ui form">
+			<input class="input-block" type="text" placeholder="标题" ng-model="result">
+		</div>
+		<div class="actions">
+			<div class="ui black deny button">
+				关闭
+			</div>
+		</div>
+	</div>
+</div>

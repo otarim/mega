@@ -1,0 +1,19 @@
+.mega-auth {
+  margin-top: 50px; }
+  .mega-auth .containner {
+    width: 50%;
+    margin: 0 auto; }
+  .mega-auth form {
+    padding: 15px;
+    line-height: 1.4;
+    border: 1px solid #e5e5e5;
+    border-radius: .25rem .25rem 0 0; }
+  .mega-auth .flash {
+    display: none; }
+  .mega-auth .actions {
+    text-align: right; }
+  .mega-auth .btn-reg, .mega-auth .btn-login {
+    line-height: 34px;
+    margin-left: 5px; }
+
+/*# sourceMappingURL=auth.css.map */

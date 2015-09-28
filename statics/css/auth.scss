@@ -1,0 +1,17 @@
+.mega-auth {
+	margin-top: 50px;
+	.containner {
+		width: 50%;
+		margin: 0 auto;
+	}
+	.flash {
+		display: none;
+	}
+	.actions {
+		text-align: right;
+	}
+	.btn-reg,.btn-login {
+		line-height: 34px;
+		margin-left: 5px;
+	}
+}

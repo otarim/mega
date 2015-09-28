@@ -1,0 +1,28 @@
+{
+  "name": "mega",
+  "main": "index.js",
+  "version": "0.0.0",
+  "authors": [
+    "otarim <otarim.com@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "statics/js",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-datepicker": "~1.0.14",
+    "angular-resource": "~1.4.2",
+    "angular-ui-router": "~0.2.15",
+    "angularjs": "~1.4.2",
+    "ng-clip": "~0.2.6",
+    "restangular": "~1.5.1",
+    "semantic-ui": "~2.0.5",
+    "textAngular": "~1.4.2",
+    "zeroclipboard": "~2.2.0"
+  }
+}

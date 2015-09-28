@@ -1,0 +1,22 @@
+<div class="users">
+	<table class="ui selectable celled table">
+		<thead>
+		<tr>
+			<th ng-click="event.sort('uid')">排位</th>
+			<th ng-click="event.sort('user')">用户名</th>
+			<th ng-click="event.sort('level')">是否管理员</th>
+			<th ng-click="event.sort('post')">发布权限</th>
+			<th ng-click="event.sort('block')">是否拉黑</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr ng-repeat="user in data.users | orderBy: data.order: data.rev">
+			<td ng-bind="user.uid"></td>
+			<td><a ng-href="/users/{{user._id}}">{{user.user}}</a></td>
+			<td ng-click="event.toggleAdmin(user)" ng-bind="data.isAdmin[!!user.level]"></td>
+			<td ng-click="event.togglePost(user)" ng-bind="data.canPost[user.post]"></td>
+			<td ng-click="event.toggleBlock(user)" ng-bind="data.isBlock[user.block]"></td>
+		</tr>
+		</tbody>
+	</table>
+</div>

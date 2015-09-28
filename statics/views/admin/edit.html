@@ -1,0 +1,16 @@
+<div class="ui form post">
+	<div class="ui info message" ng-class="{'error': err.postError}" ng-style="{display: data.feedback ? 'block' : 'none'}">
+	  <span class="octicon octicon-alert"></span>
+	  <span ng-bind="data.feedback"></span>
+	</div>
+	<div class="field">
+		<input class="input-block" type="text" placeholder="标题" ng-model="model.title">
+	</div>
+	<div class="field">
+		<div text-angular ng-model="model.content"></div>
+	</div>
+	<div class="field">
+		<button class="positive ui button" type="button" ng-click="event.save()">保存</button>
+		<button class="negative ui button" type="button" ng-click="event.post()">发布</button>
+	</div>
+</div>
